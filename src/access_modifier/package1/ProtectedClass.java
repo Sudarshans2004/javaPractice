@@ -1,6 +1,6 @@
 package access_modifier.package1;
 
-public class protectedclass {
+public class ProtectedClass {
 
     protected int x = 10;
 

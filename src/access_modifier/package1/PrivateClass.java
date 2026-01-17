@@ -1,6 +1,6 @@
 package access_modifier.package1;
 
-public class privateclass {
+public class PrivateClass {
     private int x = 10;
 
     private static void privateMeth(){

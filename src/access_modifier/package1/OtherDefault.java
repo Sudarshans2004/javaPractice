@@ -1,8 +1,8 @@
 package access_modifier.package1;
 
-public class otherDefault {
+public class OtherDefault {
     public static void main(String[] args) {
-        defaultclass obj = new defaultclass();
+        DefaultClass obj = new DefaultClass();
         obj.print();
         System.out.println(obj.x);
     }

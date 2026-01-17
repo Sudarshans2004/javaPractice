@@ -1,6 +1,6 @@
 package access_modifier.package1;
 
-public class publicclass {
+public class PublicClass {
      public int x =10;
 
      public void print(){
