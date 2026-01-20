@@ -3,7 +3,7 @@ package Array;
 //Write a Java program to sum values of an array.
 
 
-public class TotalSumOfArray {
+public class TotalSum {
     public static void x (int arr[]){
         int result=0;
         for(int i=0;i<arr.length;i++){

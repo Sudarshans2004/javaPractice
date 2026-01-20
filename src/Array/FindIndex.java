@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class FindIndexOfArray {
+public class FindIndex {
 //    Find index of an element in array
     public static void Index(int arr[]){
         Scanner sc = new Scanner(System.in);
