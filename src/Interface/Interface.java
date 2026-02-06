@@ -7,12 +7,14 @@ public interface Interface {
        abstract class dog implements animal{
 
          @Override
-         public void sound() {
-
-         }
+         public abstract void sound();
      }
     class cat extends dog{
 
+        @Override
+        public void sound() {
+
+        }
     }
     interface a{
 
