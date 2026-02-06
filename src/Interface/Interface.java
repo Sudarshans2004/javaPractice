@@ -20,7 +20,9 @@ public interface Interface {
 
     }
     class b{
+        void run(){
 
+        }
     }
 
      class c extends b implements a {
