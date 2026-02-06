@@ -1,4 +1,4 @@
-package Interface;
+package iinterface;
 
 public interface MethodNamingConflictsCase1 {
         interface a {

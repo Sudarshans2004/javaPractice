@@ -1,16 +1,16 @@
-package Interface;
+package iinterface;
 
-public interface MethodConfCase3 {
+public interface MethodNamingConfCase2 {
 
         interface a {
-            public String sound();
+            String sound();
         }
         interface b{
             void sound(int a);
         }
 
-        //        Case 2 diffrent return type same signature
-        class c implements Interface.MethodNamingConfCase2.a, Interface.MethodNamingConfCase2.b {
+        //        Case 2 diffrent parametere
+        class c implements a, b {
             @Override
             public String sound() {
 
@@ -21,8 +21,6 @@ public interface MethodConfCase3 {
             }
 
         }
+    }
 
 
-
-
-}
