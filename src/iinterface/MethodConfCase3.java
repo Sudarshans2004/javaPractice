@@ -10,7 +10,7 @@ public interface MethodConfCase3 {
         }
 
         //        Case 2 diffrent return type same signature
-        class c implements Interface.MethodNamingConfCase2.a, Interface.MethodNamingConfCase2.b {
+        class c implements a, b {
             @Override
             public String sound() {
 

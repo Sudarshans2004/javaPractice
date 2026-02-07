@@ -28,8 +28,4 @@ public interface Interface {
      class c extends b implements a {
 
     }
-
-
-
-
 }
