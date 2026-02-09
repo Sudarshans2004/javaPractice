@@ -5,5 +5,6 @@ public class SuperVsThisCase1 {
         System.out.println();
 //        super or this keyword must be first statement after constructor
 //        super();
+
     }
 }
