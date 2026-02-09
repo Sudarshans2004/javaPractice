@@ -12,6 +12,7 @@ public class ConstructorTypes {
 //        default construtor
         ConstructorTypes obj = new ConstructorTypes();
     }
+
 }
 
 
