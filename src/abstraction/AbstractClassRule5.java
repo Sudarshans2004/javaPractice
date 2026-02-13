@@ -1,5 +1,5 @@
 package abstraction;
-
+// if extends one non abstract class with abstract class then we have to provide implmentation
 public class AbstractClassRule5 {
 
     abstract class a {
