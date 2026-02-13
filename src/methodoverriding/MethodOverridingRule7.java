@@ -1,4 +1,4 @@
-package methodoverloading;
+package methodoverriding;
 
 //While overriding we cant reduce scope of access modifier but we can increase scope
 // if public -> public
