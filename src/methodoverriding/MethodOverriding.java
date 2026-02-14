@@ -1,7 +1,7 @@
 package methodoverriding;
 
 public class MethodOverriding{
-     void show(){
+     void show() {
          System.out.println("overidden ethod");
     }
 }
