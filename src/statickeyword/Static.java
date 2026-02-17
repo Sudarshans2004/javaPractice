@@ -5,6 +5,7 @@ public class Static {
         main (new String[] {});
     }
 
+
     public static void main(String[] args) {
         System.out.println(args[0]);
     }
