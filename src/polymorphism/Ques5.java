@@ -26,7 +26,8 @@ public class Ques5 {
     {
         public static void main(String[] args)
         {
-            new Y().method(100);
+            new Y().method(100); // Which is also equal to Y y = new Y();  y.method(100)
+
         }
 
 
