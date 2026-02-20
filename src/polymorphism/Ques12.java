@@ -16,7 +16,6 @@ public class Ques12 {
             System.out.println("From Sub Class");
         }
     }
-
      class MainCClass
     {
         public static void main(String[] args)
