@@ -3,7 +3,6 @@ package statickeyword;
 // 1) Identification of static members from top to bottom or parent to child
 // 2) Execution of static variable assignments & static blocks from parent to child
 // 3) Execution of only child main methds
-
 public class StaticControlFlow {
     static int x=10;
     static {
