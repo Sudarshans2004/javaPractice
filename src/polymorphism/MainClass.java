@@ -1,12 +1,11 @@
 package polymorphism;
 
-    class A
+    class AA
     {
 
     }
 
-    class B extends A
-    {
+    class B {
 
     }
 
@@ -40,7 +39,7 @@ package polymorphism;
         public static void main(String[] args)
         {
 //            C c = new C();
-            A a = new A();
+            AA a = new AA();
             overloadedMethod(a);
         }
     }
