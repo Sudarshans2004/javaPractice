@@ -1,0 +1,2 @@
+20) How do compiler differentiate overloaded methods from duplicate methods?
+compiler diffrentiate overloaded methods and duplicate methods by comparing their method signature
