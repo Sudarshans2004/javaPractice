@@ -10,7 +10,6 @@ public class ClimbingStairs {
                 int c =a+b;
                 a=b;
                 b=c;
-
             }
             return b;
         }
