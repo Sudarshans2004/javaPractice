@@ -5,7 +5,7 @@ final public class OwnImmutableClass {
     OwnImmutableClass(int i){
         this.i = this.i;
     }
-    public OwnImmutableClass modify(int i){
+     public OwnImmutableClass modify(int i){
         if(this.i == i){
             return this;
         }else{
