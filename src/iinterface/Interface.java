@@ -2,18 +2,20 @@ package iinterface;
 
 public interface Interface {
     interface animal {
-        void sound();
+        abstract void sound();
     }
-       abstract class dog implements animal{
+        class dog implements animal{
 
          @Override
-         public abstract void sound();
+        public void sound(){
+             System.out.println("bhow bhow");
+         }
      }
-    class cat extends dog{
+    class cat implements animal{
 
         @Override
         public void sound() {
-
+            System.out.println("Meow meow");
         }
     }
     interface a{

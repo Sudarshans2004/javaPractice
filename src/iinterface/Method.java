@@ -2,7 +2,7 @@ package iinterface;
 
 public interface Method {
     interface myinterf{
-                                          //        public static final int a =10;
+// public static final int a =10;
         int a =10;
 //        private int b =10;
 //        protected int c =10;
