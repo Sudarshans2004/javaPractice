@@ -14,7 +14,7 @@ public class TwoSum {
                 }else{
                 newArr[i]= arr2.length;
             }
-            }
+        }
 
         for(int num:newArr){
             System.out.println(num);
