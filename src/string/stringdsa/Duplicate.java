@@ -12,8 +12,6 @@ public class Duplicate {
                 }
 
             }
-
-
         }
         System.out.println(s1);
 
