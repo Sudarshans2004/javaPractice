@@ -8,7 +8,6 @@ public class ReverseString {
         sb.append(s);
         String s2 ="";
 //        System.out.println( sb.reverse());
-
         for(int i=s.length()-1;i>=0;i--){
                 s2 += s.charAt(i);
             }
