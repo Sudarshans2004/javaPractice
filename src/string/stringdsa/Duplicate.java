@@ -12,8 +12,5 @@ public class Duplicate {
             h.add(ch);
         }
         System.out.println(h);
-
-
-
     }
 }
