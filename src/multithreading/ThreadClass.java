@@ -9,7 +9,7 @@ public class ThreadClass extends Thread{
 
     public static void main(String[] args) {
         ThreadClass t = new ThreadClass();
-        t.start();
+        t.run();
         for(int i =0;i<5 ; i++){
             System.out.println("Main Thread");
         }
