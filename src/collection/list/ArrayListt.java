@@ -2,7 +2,7 @@ package collection.list;
 
 import java.util.ArrayList;
 
-public class Listt {
+public class ArrayListt {
     public static void main(String[] args) {
 
         ArrayList<Integer> l = new ArrayList<>();
