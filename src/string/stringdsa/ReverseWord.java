@@ -7,11 +7,13 @@ public class ReverseWord {
 //        String s1 [] =new String[s2.length];
         String s = "Sudarshan Shinde";
         String s2 [] = s.split(" ");
-         int uu = s2.length;
-        System.out.println(uu);
-
-        for(int i=s2.length-1;i>=0;i--){
+        StringBuilder res = new StringBuilder();
+        for(int i=0;i<s2[i].length();i++){
             System.out.print(s2[i]+" ");
+             String word = s2[i];
+             StringBuilder temp = new StringBuilder(word);
+            res.append(temp.reverse());
         }
+        System.out.println(res);
     }
 }
