@@ -36,9 +36,7 @@ public class Question6 {
             }
             System.out.println(median);
             System.out.println(arr.toString());
-
             return 0;
-
         }
 
     public static void main(String[] args) {
@@ -47,4 +45,5 @@ public class Question6 {
                 new int[]{2,2,4,4},
                 new int[]{2,2,2,4,4}
         );    }
+
 }
