@@ -7,18 +7,13 @@ public class  MaxThreeDigitInString {
 
             String s1 = "";
             String s2 = "";
-
             for (int i = 0; i < num.length() - 2; i++) {
-
                 if (num.charAt(i) == num.charAt(i + 1) &&
                         num.charAt(i) == num.charAt(i + 2)) {
-
                     s1 = "" + num.charAt(i) + num.charAt(i) + num.charAt(i);
                     s2 = s2 + s1;
                 }
             }
-
-
             if (s2.length() == 0) {
                 return "";
             }
@@ -37,11 +32,10 @@ public class  MaxThreeDigitInString {
                     max = curr;
                 }
             }
-
             return max;
         }
     public static void main (String[]args){
-        System.out.println(largestGoodInteger("12356777444"));
+        System.out.println(largestGoodInteger("12999777444"));
     }
     }
 
