@@ -22,8 +22,8 @@ public class Question7 {
         while (i < prices.length) {
             sum = sum + prices[i];
 
-            while (sum >= k) {        // ✅ changed > to >=
-                sum = sum - prices[j]; // ✅ changed prices[i] to prices[j]
+            while (sum >= k) {
+                sum = sum - prices[j];
                 j++;
             }
 
