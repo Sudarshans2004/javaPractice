@@ -1,5 +1,7 @@
 package basicjavacodes;
 
+import java.util.ArrayList;
+
 public class AddingNumToSingleDigit {
     public static void main(String[] args) {
         int num =0;
