@@ -3,7 +3,7 @@ package collection.comparableandcomparator;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-public class ComparatorDemo {
+public class  ComparatorDemo {
     public static void main(String[] args) {
         TreeSet <Integer> t = new TreeSet<>(new MyComparator ());
         t.add(10);
