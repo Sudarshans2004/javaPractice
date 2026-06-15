@@ -1,6 +1,7 @@
 package basicjavacodes;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class FindFrequency {
@@ -21,6 +22,16 @@ public class FindFrequency {
            }
         }
         System.out.println(result);
+        Iterator i = new Iterator() {
+            @Override
+            public boolean hasNext() {
+                return false;
+            }
 
+            @Override
+            public Object next() {
+                return null;
+            }
+        };
     }
 }
