@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class AddingNumToSingleDigit {
     public static void main(String[] args) {
-        int num =0;
+        int num =110;
         while (num >= 10) {
 
             int result = 0;
