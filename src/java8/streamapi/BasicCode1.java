@@ -11,7 +11,6 @@ public class BasicCode1 {
         l.add(15);
         l.add(25);
         Integer [] i = l.stream().toArray(Integer[] ::new);
-
         for(Integer i1 : i){
             System.out.println(i1);
         }
