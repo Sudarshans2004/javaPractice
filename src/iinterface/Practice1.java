@@ -1,7 +1,5 @@
 package iinterface;
 
-import java.util.SimpleTimeZone;
-
 //    Create interface Calculator:
 //Methods:
 //add(int a, int b)
