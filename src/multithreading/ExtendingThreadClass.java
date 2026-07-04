@@ -7,7 +7,7 @@ public class ExtendingThreadClass extends Thread {
 
     public static void main(String[] args) {
         ExtendingThreadClass e = new ExtendingThreadClass();
-        Thread t = new Thread(e);
-        t.start();
+        e.start();
+        System.out.println("main");
     }
 }
