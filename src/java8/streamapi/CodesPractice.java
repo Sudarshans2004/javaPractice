@@ -3,7 +3,7 @@ package java8.streamapi;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class codesPractice {
+public class CodesPractice {
     public static void main(String[] args) {
 //        11. Find maximum number
         List<Integer> nums = Arrays.asList(10,20,30,40);
