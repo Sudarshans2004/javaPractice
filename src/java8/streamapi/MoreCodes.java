@@ -27,5 +27,9 @@ public class MoreCodes {
         Set <Character> sett = new HashSet<>();
         System.out.println(s.chars().mapToObj(n->(char)n).filter(n->!sett.add(n)));
 
+//        Q24. Count Occurrence of Each Word
+        String s1 = "java is good java is powerful";
+
+
     }
 }
