@@ -23,6 +23,7 @@ public class Ques4 {
             return i+d;
         }
 
+
     public static void main(String[] args) {
         method(10,20.2);
         method(10.02,10.2);
