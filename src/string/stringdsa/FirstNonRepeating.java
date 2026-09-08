@@ -24,12 +24,12 @@ public class FirstNonRepeating {
 //            }
 //        }
 
-        System.out.println((char)str
+        System.out.println(str
                 .chars()
-//                .mapToObj(c->(char)c)
-                .filter(ch-> str.indexOf((char)ch)==str.lastIndexOf((char)ch))
+                .mapToObj(c->(char)c)
+                .filter(ch-> str.indexOf(ch)==str.lastIndexOf(ch))
                 .findFirst()
-                .orElse(-1));
+                .orElse(null));
 
     }
 }
