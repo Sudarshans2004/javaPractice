@@ -7,7 +7,7 @@ import java.util.HashSet;
 
 public class FindLucky {
     public static void main(String[] args) {
-        int[]arr = {2,2,3,3,4,4,3,5,66,70,70};
+        int[]arr = {2,2,2,3,3,4,4,3,5,66,70,70};
          int max = Integer.MIN_VALUE;
          int count = 0;
         HashSet<Integer> h = new HashSet <Integer>();
