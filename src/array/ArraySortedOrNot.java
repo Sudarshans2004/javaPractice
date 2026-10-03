@@ -15,7 +15,7 @@ public class ArraySortedOrNot {
                 asc=true;
             }
         }
-        if(asc||dec){
+        if(asc^dec){
             System.out.println("sorted");
         }else{
             System.out.println("Not Sorted");
