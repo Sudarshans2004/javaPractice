@@ -4,35 +4,31 @@ import java.util.Stack;
 
 public class ValidParenthesis {
     public static boolean isValid(String s) {
-        char[] arr= new char[s.length()];
-        boolean isValid=false;
-            Stack<Character> stack= new Stack<>();
+        Stack<Character> stack = new Stack<>();
 
-            for(int i =0;i<s.length();i++){
-                arr[i]+=s.charAt(i);
-            }
-        stack.push(arr[0]);
-        for(int i =0;i<arr.length;i++){
-            if(arr[i]==')'&&stack.peek()=='('){
-                stack.pop();
-            }
-            else if(arr[i]==']'&&stack.peek()=='['){
-                stack.pop();
-            }
-            else if(arr[i]=='}'&&stack.peek()=='{'){
-                stack.pop();
-            }else{
-                stack.push(arr[i]);
-            }
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
 
-        }
-        if(stack.size()==0){
-            isValid=true;
-        }else {
-            isValid=false;
+            if (ch == '(' || ch == '[' || ch == '{') {
+                stack.push(ch);
+            } else {
+                if (stack.isEmpty()) {
+                    return false;
+                }
+
+                char top = stack.peek();
+
+                if ((ch == ')' && top == '(') ||
+                        (ch == ']' && top == '[') ||
+                        (ch == '}' && top == '{')) {
+                    stack.pop();
+                } else {
+                    return false;
+                }
+            }
         }
 
-            return isValid;
+        return stack.isEmpty();
     }
 
     public static void main(String[] args) {
