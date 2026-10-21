@@ -10,7 +10,7 @@ public class PriorityQueuee {
         p.offer("Canada");
         p.offer("Australia");
         p.offer("UK");
-
+        System.out.println(p);
 
     }
 }
