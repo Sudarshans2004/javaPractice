@@ -16,6 +16,5 @@ public class MaxElementInWindow {
             }
             System.out.println(max);
         }
-
     }
 }
