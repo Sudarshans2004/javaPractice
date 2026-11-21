@@ -5,8 +5,8 @@ import java.util.List;
 
 public class FactorsOfNumOptimised {
     public static void main(String[] args) {
-//          sqrtOptimised(20);
-          sqrtOptimisedSorted(20);
+          sqrtOptimised(4);
+//          sqrtOptimisedSorted(20);
 
     }
     static void sqrtNormal(int num){
@@ -22,21 +22,25 @@ public class FactorsOfNumOptimised {
                     if(num/i==i){
                         System.out.print(i+" ");
                     }else {
-                        System.out.println(" "+num/i + " ");
+                        System.out.print(i+" "+num/i + " ");
 
                     }
                 }
         }
     }
     static void sqrtOptimisedSorted(int num){
+        int count = 0;
         List<Integer>li = new ArrayList<>() ;
         for (int i = 1; i <= Math.sqrt(num); i++) {
             if(num%i==0){
                 if(num/i==i){
                     System.out.print(i+" ");
+                    count++;
                 }else {
                     System.out.print(i+" ");
+                    count++;
                    li.add(num/i);
+
                 }
             }
         }
@@ -44,6 +48,7 @@ public class FactorsOfNumOptimised {
         for (int i = li.size()-1; i >=0 ; i--) {
             System.out.print(li.get(i)+ " ");
         }
+        System.out.println(count);
     }
 
 }
